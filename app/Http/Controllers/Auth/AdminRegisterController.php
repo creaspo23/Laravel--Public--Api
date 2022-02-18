@@ -34,6 +34,6 @@ class AdminRegisterController extends Controller
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);
-        return view('admin');
+        return view('auth.admin-login');
     }
 }

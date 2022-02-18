@@ -24,9 +24,6 @@
                     name</th>
                 <th class="p-3 font-bold uppercase bg-gray-200 text-gray-600 border border-gray-300 hidden lg:table-cell">
                     Invoice</th>
-
-
-
             </tr>
         </thead>
         @foreach ($users as $user)
